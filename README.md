@@ -6,15 +6,15 @@ This project is a Python-based automated QA test case generator that leverages t
 
 ## Features
 
-    AI-Powered Generation: Uses the Gemini 1.5 Flash API to act as an expert QA engineer and generate test cases.
+AI-Powered Generation: Uses the Gemini 1.5 Flash API to act as an expert QA engineer and generate test cases.
 
-    Structured Output: Generates test cases in a clean, parsable JSON format with keys for id, title, priority, steps, and expected_result.
+Structured Output: Generates test cases in a clean, parsable JSON format with keys for id, title, priority, steps, and expected_result.
 
-    Secure API Key Management: Uses a .env file to securely store your API key, preventing it from being committed to the repository.
+Secure API Key Management: Uses a .env file to securely store your API key, preventing it from being committed to the repository.
 
-    Robust Error Handling: Includes a retry mechanism with exponential backoff for API calls and validates the output to ensure it's valid JSON.
+Robust Error Handling: Includes a retry mechanism with exponential backoff for API calls and validates the output to ensure it's valid JSON.
 
-    Git Integration: Uses a .gitignore file to exclude sensitive files (.env) and the virtual environment (venv/) from version control.
+Git Integration: Uses a .gitignore file to exclude sensitive files (.env) and the virtual environment (venv/) from version control.
 
 ## Getting Started
 
