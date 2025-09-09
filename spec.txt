@@ -1,0 +1,5 @@
+Feature: Login Functionality
+- Users should be able to log in with email and password.
+- Error messages should be shown for incorrect credentials.
+- Login should be blocked after 5 failed attempts.
+- Users can opt for "Remember me" to stay loggen in for 30 days.

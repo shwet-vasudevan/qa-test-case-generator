@@ -1,0 +1,16 @@
+You are an expert QA Engineer. Based on the following feature specification, generate a list of clear, readable test cases.
+
+Output the test cases as a JSON array. Each object in the array should have the following keys:
+- "id": A unique identifier for the test case (e.g., TC-001)
+- "title": A descriptive title for the test case
+- "description": A brief summary of the test case's purpose
+- "priority": The importance of the test case (e.g., "High", "Medium", "Low")
+- "type": The category of testing (e.g., "Functional", "Negative", "Usability", "Security")
+- "preconditions": The setup required before executing the test
+- "steps": An array of strings, where each string is a step in the test
+- "expected_result": The expected outcome after completing the steps
+
+Do NOT include any additional text or code fences in the output. Just return the raw JSON.
+
+Feature Specification:
+{spec}
