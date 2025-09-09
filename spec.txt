@@ -1,5 +1,10 @@
-Feature: Login Functionality
+Feature: Login and Password Reset Functionality
 - Users should be able to log in with email and password.
 - Error messages should be shown for incorrect credentials.
 - Login should be blocked after 5 failed attempts.
-- Users can opt for "Remember me" to stay loggen in for 30 days.
+- Users can opt for "Remember me" to stay logged in for 30 days.
+- Users should be able to reset their password using their email address.
+- A confirmation link should be sent to the user's registered email.
+- The password reset link should expire after a certain period (e.g., 24 hours).
+- Users should be able to set a new password after a successful password reset.
+- Error messages should be displayed for invalid or expired password reset links.
